@@ -8,6 +8,11 @@ const Button = styled.button`.button
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(50, 50, 50, 0.25);
   cursor: pointer;
+  width: 100%;
+
+@media (min-width: 700px) {
+width: auto;
+}
 
 &:focus {
   outline: none;
